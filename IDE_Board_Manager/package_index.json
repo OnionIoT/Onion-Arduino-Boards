@@ -16,7 +16,7 @@
                         "online": "https://community.onion.io/"
                     },
                     "url": "https://github.com/OnionIoT/Onion-Arduino-Boards/blob/master/IDE_Board_Manager/onion-arduino-dock-1.0.0.tar.gz",
-                    "archiveFileName": "onion-arduino-dock-1.0.0.zip",
+                    "archiveFileName": "onion-arduino-dock-1.0.0.tar.gz",
                     "checksum": "SHA-256: a821a8c0fa516597e23d043241b41a8e99f41d8b35a49ab9b968a7b73c442e95",
                     "size": "370942",
                     "boards": [
