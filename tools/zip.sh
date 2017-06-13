@@ -29,4 +29,4 @@ rm -rf tmp
 archiveSize=$(stat --printf="%s" ./IDE_Board_Manager/$archiveName)
 checksum=$(shasum -a 256 ./IDE_Board_Manager/$archiveName | awk '{print $1}')
 echo "Size: $archiveSize"
-echo "SHA-256: $checksum"
+echo "SHA-256:$checksum"
