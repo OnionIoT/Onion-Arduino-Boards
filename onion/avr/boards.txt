@@ -3,37 +3,37 @@
 menu.cpu=Processor
 
 ##############################################################
-# Arduino Dock R2
-# Also works for the Arduino Dock R1
+# Generic Arduino Dock
+# For R1, R2 models
 
-arduinodock2.name=Onion Arduino Dock R2
-arduinodock2.upload.via_ssh=true
+arduinodock.name=Onion Arduino Dock
+arduinodock.upload.via_ssh=true
 
-arduinodock2.vid.0=0x2341
-arduinodock2.pid.0=0x0043
-arduinodock2.vid.1=0x2341
-arduinodock2.pid.1=0x0001
-arduinodock2.vid.2=0x2A03
-arduinodock2.pid.2=0x0043
-arduinodock2.vid.3=0x2341
-arduinodock2.pid.3=0x0243
+arduinodock.vid.0=0x2341
+arduinodock.pid.0=0x0043
+arduinodock.vid.1=0x2341
+arduinodock.pid.1=0x0001
+arduinodock.vid.2=0x2A03
+arduinodock.pid.2=0x0043
+arduinodock.vid.3=0x2341
+arduinodock.pid.3=0x0243
 
-arduinodock2.upload.tool=avrdude
-arduinodock2.upload.protocol=arduino
-arduinodock2.upload.maximum_size=32256
-arduinodock2.upload.maximum_data_size=2048
-arduinodock2.upload.speed=115200
+arduinodock.upload.tool=arduino:avrdude
+arduinodock.upload.protocol=arduino
+arduinodock.upload.maximum_size=32256
+arduinodock.upload.maximum_data_size=2048
+arduinodock.upload.speed=115200
 
-arduinodock2.bootloader.tool=avrdude
-arduinodock2.bootloader.low_fuses=0xFF
-arduinodock2.bootloader.high_fuses=0xDE
-arduinodock2.bootloader.extended_fuses=0x05
-arduinodock2.bootloader.unlock_bits=0x3F
-arduinodock2.bootloader.lock_bits=0x0F
-arduinodock2.bootloader.file=optiboot/optiboot_atmega328.hex
+arduinodock.bootloader.tool=arduino:avrdude
+arduinodock.bootloader.low_fuses=0xFF
+arduinodock.bootloader.high_fuses=0xDE
+arduinodock.bootloader.extended_fuses=0x05
+arduinodock.bootloader.unlock_bits=0x3F
+arduinodock.bootloader.lock_bits=0x0F
+arduinodock.bootloader.file=optiboot/optiboot_atmega328.hex
 
-arduinodock2.build.mcu=atmega328p
-arduinodock2.build.f_cpu=16000000L
-arduinodock2.build.board=AVR_UNO
-arduinodock2.build.core=arduino
-arduinodock2.build.variant=standard
+arduinodock.build.mcu=atmega328p
+arduinodock.build.f_cpu=16000000L
+arduinodock.build.board=AVR_UNO
+arduinodock.build.core=arduino:arduino
+arduinodock.build.variant=arduino:standard
